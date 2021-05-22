@@ -1,0 +1,282 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    margin:0;
+    padding: 0;
+    outline: none;
+}
+
+body{
+    background-color: #f9f9f9;
+    font-family: "Open Sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.d-flex{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.justify-content-sb{
+    justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.align-content-center{align-content: center;}
+.align-content-sb{align-content: space-between;}
+
+.text-bordo{color: #A80000}
+.text-verde{color: #3E831E}
+.text-laranja{color: #FF7F00}
+.text-azul-1{color: #0669de;}
+.text-azul-escuro{color: #005CEF}
+.text-branco{color: #fff;}
+.text-vermelho{color:#C4170C;}
+.text-preto-2{color:#333;}
+.text-preto-3{color: #555;}
+.text-preto-4{color: #999}
+
+.font-8{font-size: 8px;}
+.font-12{font-size: 12px;}
+.font-14{font-size: 14px;}
+.font-16{font-size: 16px;}
+.font-20{font-size: 20px}
+.font-24{font-size: 24px;}
+.font-25{font-size: 25px;}
+.font-28{font-size: 28px;}
+.font-40{font-size: 40px;}
+
+.font-w100{font-weight: 100;}
+.font-w300{font-weight: 300;}
+
+
+.mt-8{margin-top: 8px;}
+
+.img_rounded{
+    border-radius: 100%;
+}
+
+
+.list-style-circle{
+    list-style: circle;
+}
+
+.barra-superior{
+    background-color: #f3f3f3;
+    padding: 0px 12px;
+}
+
+.barra-superior a{
+    text-decoration: none;
+    margin-right: 15px;
+}
+.barra-superior .esquerda{
+    font-family: 'Arial';
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 7px 12px;
+}
+
+.barra-superior .direita{
+    font-family: "Arial";
+    color: #999;
+    font-size: 12px;
+}
+
+.barra-superior .direita li{
+    padding: 15px 12px 13px 4px;
+}
+
+.barra-superior .direita li button{
+    padding: 5px 3px;
+    background-color: #f4f4f4;
+    color: #777;
+    border-width: 0.5px;
+    border-radius: 2px;
+}
+
+
+.barra-pesquisa{
+    padding: 20px 12px;
+    background-color: #C4170C;
+}
+
+.barra-pesquisa input
+{
+    border: none;
+    padding: 10px 5px 8px 10px;
+    background-color: rgba(0,0,0,0.15);
+    color: #fff;
+}
+
+.barra-pesquisa ::-webkit-input-placeholder
+{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 550;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 22px;
+    margin-right: 8px;
+}
+
+main{
+    padding: 80px;
+}
+
+
+.titulo-principal-01{
+    flex-wrap: wrap;
+    align-content: center;
+    height: 100%;
+}
+
+.titulo-principal-superior{
+    flex-basis: 70px;
+}
+
+.area-noticia{
+ 
+    height: 294px;
+    width: 100%;
+    background-image: url("images/noticias/noticia.jpg");
+
+    background-size: cover;
+    padding: 24px 48px 24px 24px;
+    flex-wrap: wrap;
+    align-content: space-between;
+   
+}
+
+.principal-01{
+    background-color: #fff;
+    flex-basis: 48%;
+    box-shadow: 0 0px 3px rgba(0,0,0,0.2);
+    padding: 24px 48px 24px 24px;
+    margin-right: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal-01 h2{
+    margin: 25px 0 0;
+}
+
+
+.principal-02{
+    flex: 1;
+    color: #fff;
+    margin-left: 8px;
+}
+
+.principal-02 .n1{
+    box-shadow: 0 0px 3px rgba(0,0,0,0.2);
+    margin-bottom: 13px;
+}
+
+.principal-02 .n2{
+    box-shadow: 0 0px 3px rgba(0,0,0,0.2);
+    margin-top: 13px;
+}
+
+.lista-noticias{
+    flex: 1;
+    margin-right: 20px;
+}
+.lista-noticias hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.239);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+.noticia-lista{
+    margin: 32px 0;
+}
+.noticia-lista ul li{
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.titulo-2{
+    padding: 0 0 8px;
+}
+
+.reportagem{
+    padding: 10px 0;
+}
+
+.img-lista{
+    width: 360px;
+    margin-right: 20px;
+}
+
+
+.aside{
+    flex-basis: 365px;
+}
+
+
+.aside hr{
+        border: 0;
+        height: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.quadro{
+    background-color: #fff;
+    box-shadow: 0 0px 3px rgba(0,0,0,0.2);
+   
+}
+
+.quadro h2{
+    margin: 0 0 8px;
+}
+
+.titulo-quadro{
+    padding: 16px 24px;
+}
+
+.conteudo-quadro{
+    padding: 0 24px;
+}
+
+.conteudo-quadro span{
+    margin-right: 16px;
+}
+
+.noticia-quadro{
+    padding: 16px 0;
+}
+
+footer{
+    background-color: #c4170c;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+footer h6{
+    padding: 0 20px;
+}
+
+footer ul li{
+    padding: 0 5px 0 7px;
+}
+
+footer .sec-01{
+    padding: 15px 0;
+}
+
+footer .sec-02{
+    padding: 13px 0;
+}
